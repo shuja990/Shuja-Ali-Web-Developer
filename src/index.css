@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Roboto+Condensed:wght@300;400&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+
+ background: rgb(60,17,67);
+background: -moz-linear-gradient(90deg, rgba(60,17,67,1) 0%, rgba(194,81,120,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(60,17,67,1) 0%, rgba(194,81,120,1) 100%);
+background: linear-gradient(90deg, rgba(60,17,67,1) 0%, rgba(194,81,120,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3c1143",endColorstr="#c25178",GradientType=1); 
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

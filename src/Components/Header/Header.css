@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+.container2 {
+  font-family: 'Roboto Condensed',-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+}
+
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+@media only screen and (max-width: 479px){
+    .container2 { width: 100%; }
+}
+@media only screen and (max-width: 800px){
+    .container2 { width: 100%; }
+}
+.c{
+	border-color: #251328;
+}
+.x{
+	font-size: 7.5rem;
+}
+.font{
+	font-family: 'Orbitron'
+}
+.f222{
+	font-family: 'Anton';
+}
+

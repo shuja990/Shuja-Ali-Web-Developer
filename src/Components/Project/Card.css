@@ -1,0 +1,14 @@
+.d{
+	border:2px;
+	border-color: blue;
+}
+.d:hover{
+	border-color: orange;
+
+}
+.card{
+   transition: all 0.2s ease-in-out 0s;
+}
+.card:hover{
+	transform: scale(1) rotateZ(1.5deg);
+}

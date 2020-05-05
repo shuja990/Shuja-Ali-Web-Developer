@@ -1,0 +1,11 @@
+
+.card{
+   transition: all 0.2s ease-in-out 0s;
+}
+.card:hover{
+	transform: scale(1) rotateZ(-1.5deg);
+}
+.ca{
+	width: 500px;
+	background-image: linear-gradient(to right, rgb(72, 72, 72), rgb(9, 7, 10));
+}
