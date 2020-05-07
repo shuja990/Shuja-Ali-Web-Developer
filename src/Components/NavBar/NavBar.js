@@ -10,7 +10,23 @@ class NavBar  extends Component{
   return(
     <div class="outer-menu">
   <input class="checkbox-toggle" type="checkbox" />
-  <div class="hamburger pa4">
+  <!-- Put this code anywhere in the body of your page where you want the badge to show up. -->
+
+<div itemscope itemtype='http://schema.org/Person' class='fiverr-seller-widget' style='display: inline-block;'>
+     <a itemprop='url' href=https://www.fiverr.com/shuja990 rel="nofollow" target="_blank" style='display: inline-block;'>
+        <div class='fiverr-seller-content' id='fiverr-seller-widget-content-1af10988-07f9-4675-8f1f-db4de35a4e0b' itemprop='contentURL' style='display: none;'></div>
+        <div id='fiverr-widget-seller-data' style='display: none;'>
+            <div itemprop='name' >shuja990</div>
+            <div itemscope itemtype='http://schema.org/Organization'><span itemprop='name'>Fiverr</span></div>
+            <div itemprop='jobtitle'>Seller</div>
+            <div itemprop='description'>A front and back-end Developer. I enjoy turning complex problems into simple, beautiful and intuitive designs. I have developed different projects from scratch carrying the development of its' back-end and front-end codebases. My current skillset includes React, Redux, NodeJS, HTML5, CSS3, JavaScript, NodeJS, ExpressJS. I can help you with all the sides of your project: verifying good UI/UX design, leading/co-developing the back-end and front-end, setting up the CI/CD. Apart from this I am a University Student.</div>
+        </div>
+    </a>
+</div>
+
+<script id='fiverr-seller-widget-script-1af10988-07f9-4675-8f1f-db4de35a4e0b' src='https://widgets.fiverr.com/api/v1/seller/shuja990?widget_id=1af10988-07f9-4675-8f1f-db4de35a4e0b' data-config='{"category_name":"\n                                    Programming \u0026 Tech\n\n                            "}' async='true' defer='true'></script>
+
+	  <div class="hamburger pa4">
     <div></div>
   </div>
   <div class="menu">
