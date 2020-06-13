@@ -1,11 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import '@pwabuilder/pwainstall'
-var toggle = document.getElementById('mobile-menu-toggle');
-var menu = document.getElementById('main-nav-mobile');
 class NavBar  extends Component{
-
-
 	render(){
     const { showHeaderComponent,showAboutComponent,showProjectComponent,showContactComponent} = this.props;
   return(

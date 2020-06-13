@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
+import React, {Component,Suspense } from 'react';
 import './App.css';
 import  Header from './Components/Header/Header';
-import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
 import NavBar from "./Components/NavBar/NavBar";
-import Project from "./Components/Project/Project";
-import Animate from 'animate.css-react'
-import 'animate.css/animate.css'
+
+const About = React.lazy(() => import('./Components/About/About'));
+const Contact = React.lazy(() => import('./Components/Contact/Contact'));
+const Project = React.lazy(() => import('./Components/Project/Project'));
 const initialState={
       showHeaderComponent:true, 
       showAboutComponent:false,
@@ -42,24 +41,17 @@ class App extends Component{
             <NavBar showAboutComponent={this.showAboutComponent} showContactComponent={this.showContactComponent} showHeaderComponent={this.showHeaderComponent} showProjectComponent={this.showProjectComponent}  />
             { this.state.showHeaderComponent===true
              ?  
-             (<Animate
-               appear="slideInDown"
-               durationAppear={1000}
-              component="div" >
-
-              <div>
+             (<div>
               <Header showContactComponent={this.showContactComponent}/>
-              </div>
-              </Animate>)
+              </div>)
              : this.state.showAboutComponent=== true
-            ?  <About/>
+            ?  <Suspense fallback={<div className="gif"></div>}><About/></Suspense>
             : this.state.showContactComponent===true
-            ?<Contact/>
-            :<Project/>
+            ?<Suspense fallback={<div className="gif"></div>}><Contact/></Suspense>
+            :<Suspense fallback={<div className="gif"></div>}><Project/></Suspense>
           }
           </div>
       );
   }
 }
-
 export default App;

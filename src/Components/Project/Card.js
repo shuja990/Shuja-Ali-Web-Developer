@@ -1,10 +1,10 @@
-import React from 'react'
+ import React from 'react'
 import './Card.css';
 const Card = ({name,path,info,link}) =>{
 
 	return(
 		<div className='tc dib card br3 bg-near-black hide-child pa3 ma2 bw2 shadow-5'>
-			<img alt={name} class="" src={path} width="500px"/>
+			<img alt={info} alt="Personal Project" src={path} width="500px"/>
 			<div>
 				<h2 className="white">{name}</h2>
 				<p className="white f4">{info}</p>
