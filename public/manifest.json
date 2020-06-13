@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "https://www.theshujaali.tech",
+  "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#d42d2d"
