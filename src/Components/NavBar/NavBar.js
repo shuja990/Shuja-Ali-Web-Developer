@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-class NavBar  extends Component{
+className NavBar  extends Component{
 	render(){
     const { showHeaderComponent,showAboutComponent,showProjectComponent,showContactComponent} = this.props;
   return(
-    <div class="outer-menu">
-  <input arial-label="Show NavMenu" class="checkbox-toggle" type="checkbox" />
+    <div className="outer-menu">
+  <input arial-label="Show NavMenu" id="NavMenu" className="checkbox-toggle" type="checkbox" />
   
-	  <div class="hamburger pa4">
+	  <div className="hamburger pa4">
     <div></div>
   </div>
-  <div class="menu">
+  <div className="menu">
     <div>
       <div>
         <ul>
