@@ -7,7 +7,7 @@ const Header = ({showContactComponent}) => {
 	<div className="full flex container2 align center pa0 ma0 ">
 			<div className="pa3 pa4-ns">
 			<div className="flex flex-wrap justify-center">
-			<img src={logo} className="pointer grow" height="250px"/>
+			<img src={logo} alt="personal picture" className="pointer grow" height="250px"/>
 			<div className="">
 			<h1 class="b f1 x f222 f-headline-ns tc white-70 db mb3 mb4-ns" href="#" title="Home">SHUJA ALI</h1>
 			<h2 class="f2 f1-l lh-title mt0 lightest-blue font i">Web Designer and Developer</h2>

@@ -5,7 +5,7 @@ class NavBar  extends Component{
     const { showHeaderComponent,showAboutComponent,showProjectComponent,showContactComponent} = this.props;
   return(
     <div class="outer-menu">
-  <input class="checkbox-toggle" type="checkbox" />
+  <input arial-label="Show NavMenu" class="checkbox-toggle" type="checkbox" />
   
 	  <div class="hamburger pa4">
     <div></div>
