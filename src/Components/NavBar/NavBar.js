@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-className NavBar  extends Component{
+class NavBar  extends Component{
 	render(){
     const { showHeaderComponent,showAboutComponent,showProjectComponent,showContactComponent} = this.props;
   return(
