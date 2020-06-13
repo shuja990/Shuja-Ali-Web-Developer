@@ -3,22 +3,22 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "https://i.ibb.co/pn9vZz0/default.png",
+      "src": "favicon-32x32.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
     {
-      "src": "https://i.ibb.co/pn9vZz0/default.png",
+      "src": "android-chrome-192x192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "https://i.ibb.co/pn9vZz0/default.png",
+      "src": "android-chrome-512x512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://www.theshujaali.tech",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#d42d2d"
