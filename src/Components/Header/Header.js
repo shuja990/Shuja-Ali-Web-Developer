@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import tachyons from 'tachyons';
 import './Header.css'
 import logo from './logo.png'
+import '@pwabuilder/pwainstall' 
 const Header = ({showContactComponent}) => {
 	return(
 	<div className="full flex container2 align center pa0 ma0 ">
@@ -24,7 +25,7 @@ const Header = ({showContactComponent}) => {
 				    </a>
 	   		</div>
 	   		</div>
-	   		
+	   		<pwa-install>Install Now</pwa-install>
 	   		
 	</div>
 
