@@ -24,7 +24,7 @@ class NavBar  extends Component{
           <li><a onClick={()=>showProjectComponent()}>Portfolio</a></li>
           <li><a onClick={()=>showContactComponent()}>Contact</a></li>
 	  <li><a><pwa-install>Install Now</pwa-install></a></li>
-          <li><a href="shujaali.pdf">Resume</a></li>
+          <li><a href="/shujaali.pdf">Resume</a></li>
           <li><div>
     <a className="link dim gray dib h2 w2 br-100 mr3 " href="https://www.facebook.com/shuja.ali7/" target="_blank" rel="noopener noreferrer"> 
           <svg data-icon="facebook" viewBox="0 0 32 32" className="fill">
