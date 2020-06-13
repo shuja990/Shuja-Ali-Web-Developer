@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
+import '@pwabuilder/pwainstall'
 var toggle = document.getElementById('mobile-menu-toggle');
 var menu = document.getElementById('main-nav-mobile');
 class NavBar  extends Component{
@@ -22,7 +23,8 @@ class NavBar  extends Component{
           <li><a onClick={()=>showAboutComponent()}>Services</a></li>
           <li><a onClick={()=>showProjectComponent()}>Portfolio</a></li>
           <li><a onClick={()=>showContactComponent()}>Contact</a></li>
-          <li><a href="https://pdfhost.io/v/GkrK9sIon_My_CV.pdf">Resume</a></li>
+	  <li><a><pwa-install>Install Now</pwa-install></a></li>
+          <li><a href="shujaali.pdf">Resume</a></li>
           <li><div>
     <a className="link dim gray dib h2 w2 br-100 mr3 " href="https://www.facebook.com/shuja.ali7/" target="_blank" rel="noopener noreferrer"> 
           <svg data-icon="facebook" viewBox="0 0 32 32" className="fill">
