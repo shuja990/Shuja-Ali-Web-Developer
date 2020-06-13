@@ -1,6 +1,6 @@
 {
     "name": "Shuja Ali Web Devloper and Designer",
-    "short_name": "Shuja Ali W&w",
+    "short_name": "Shuja Ali",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
@@ -13,6 +13,7 @@
             "type": "image/png"
         }
     ],
+    "start_url" "https://www.theshujaali.tech",
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
     "display": "standalone"
