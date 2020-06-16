@@ -26,6 +26,12 @@ const CardList = ({projects}) =>{
 					path ={three} 
 					info={projects[2].info}
 					link={projects[2].link}/>
+					<Card 
+					key={2}
+					name={projects[2].name} 
+					path ={projects[3].path} 
+					info={projects[3].info}
+					link={projects[3].link}/>
 
 		</div> 
 		</div>
