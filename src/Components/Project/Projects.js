@@ -19,5 +19,12 @@ export const projects = [
     name: 'Background Generator',
     info: 'A cool Gradient Generator along with CSS Code',
     link: 'https://shuja990.github.io/backgroundGenerator/'
+  },
+  {
+    key:3,
+    path:'https://i.ibb.co/1mjNbfs/vainqueurpoints-herokuapp-com-Laptop-with-MDPI-screen.png',
+    name: 'VainQueur Points System',
+    info: 'A points transfer and receiving Web App',
+    link: 'https://vainqueurpoints.herokuapp.com/'
   }
 ];
