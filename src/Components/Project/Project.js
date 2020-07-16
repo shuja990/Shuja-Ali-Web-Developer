@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import CardList from './CardList';
 import {projects} from './Projects'
 const Project = () => {
