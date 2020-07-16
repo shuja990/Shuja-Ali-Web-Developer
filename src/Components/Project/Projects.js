@@ -26,5 +26,12 @@ export const projects = [
     name: 'VainQueur Points System',
     info: 'A points transfer and receiving Web App',
     link: 'https://vainqueurpoints.herokuapp.com/'
+  },
+  {
+    key:4,
+    path:'https://i.ibb.co/ZW2PJFZ/resized-image-Promo.jpg',
+    name: 'CROWN CLOTHING',
+    info: 'An Ecommerce project with Stripe API Integration',
+    link: 'https://crwn-clothing21g.herokuapp.com/'
   }
 ];
