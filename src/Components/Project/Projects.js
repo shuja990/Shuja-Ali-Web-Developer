@@ -2,20 +2,20 @@ export const projects = [
   {
     key: 0,
     name: 'Robo Friends',
-    path: '1.png',
+    path: 'https://i.ibb.co/Zc1YRCw/one.png',
     info: 'A Directory of People',
     link: 'https://shuja990.github.io/ro/'
   },
   {
     key: 1,
-    path: './2.png',
+    path: 'https://i.ibb.co/brLKT02/two.png',
     name: 'Smart Brain',
     info: 'A Face Recognition Web App',
     link: 'https://smartbrainfacer.herokuapp.com/'
   },
   {
     key:2,
-     path: './3.png',
+     path: 'https://i.ibb.co/X3T6wZ6/three.png',
     name: 'Background Generator',
     info: 'A cool Gradient Generator along with CSS Code',
     link: 'https://shuja990.github.io/backgroundGenerator/'
@@ -31,7 +31,7 @@ export const projects = [
     key:4,
     path:'https://i.ibb.co/ZW2PJFZ/resized-image-Promo.jpg',
     name: 'CROWN CLOTHING',
-    info: 'An Ecommerce project with Stripe API Integration',
+    info: 'An E-Commerce project with Stripe API Integration',
     link: 'https://crwn-clothing21g.herokuapp.com/'
   }
 ];
