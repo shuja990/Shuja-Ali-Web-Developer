@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import './NavBar.css';
 class NavBar  extends Component{
+
+
 	render(){
     const { showHeaderComponent,showAboutComponent,showProjectComponent,showContactComponent} = this.props;
   return(
     <div className="outer-menu">
-  <input arial-label="Show NavMenu" id="NavMenu" className="checkbox-toggle" type="checkbox" />
-  
-	  <div className="hamburger pa4">
+  <input className="checkbox-toggle" type="checkbox" />
+  <div className="hamburger pa4">
     <div></div>
   </div>
   <div className="menu">
     <div>
       <div>
         <ul>
-          <li><a onClick={()=>showHeaderComponent()}>Home</a></li>
-          <li><a onClick={()=>showAboutComponent()}>Services</a></li>
-          <li><a onClick={()=>showProjectComponent()}>Portfolio</a></li>
-          <li><a onClick={()=>showContactComponent()}>Contact</a></li>
-
+          <li><a onClick={()=>showHeaderComponent()} className="pointer">Home</a></li>
+          <li><a onClick={()=>showAboutComponent()} className="pointer">Services</a></li>
+          <li><a onClick={()=>showProjectComponent()} className="pointer">Portfolio</a></li>
+          <li><a onClick={()=>showContactComponent()} className="pointer">Contact</a></li>
           <li><a href="https://pdfhost.io/v/GkrK9sIon_My_CV.pdf">Resume</a></li>
           <li><div>
     <a className="link dim gray dib h2 w2 br-100 mr3 " href="https://www.facebook.com/shuja.ali7/" target="_blank" rel="noopener noreferrer"> 
