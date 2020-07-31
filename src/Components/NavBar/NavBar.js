@@ -46,7 +46,7 @@ class NavBar  extends Component{
             </svg>
           </a>
 	<a className="link dim gray dib br-100 h2 w2 mr3 " href=" https://www.fiverr.com/shuja990" target="_blank" rel="noopener noreferrer">
-            <img src="http://seekvectorlogo.com/wp-content/uploads/2018/01/fiverr-vector-logo.png" alt="shuja990/>
+            <img src="http://seekvectorlogo.com/wp-content/uploads/2018/01/fiverr-vector-logo.png" alt="shuja990"/>
           </a>
   </div></li>
         </ul>
