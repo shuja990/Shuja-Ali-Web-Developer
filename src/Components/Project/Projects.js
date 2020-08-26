@@ -39,6 +39,6 @@ export const projects = [
     path:'https://i.ibb.co/PZF4RQX/5f46270da724d80007dca659-react-resort-hotel-reservation-netlify-app-rooms-Laptop-with-Hi-DPI-screen.png',
     name: 'Hotel Reservation',
     info: 'A Room reservation web app',
-    link: 'https://5f46270da724d80007dca659--react-resort-hotel-reservation.netlify.app/'
+    link: 'https://5f46290f36db360008d34fbf--react-resort-hotel-reservation.netlify.app/'
   }
 ];
