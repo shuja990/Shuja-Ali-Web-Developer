@@ -33,5 +33,12 @@ export const projects = [
     name: 'CROWN CLOTHING',
     info: 'An E-Commerce project with Stripe API Integration',
     link: 'https://crwn-clothing21g.herokuapp.com/'
+  },
+  {
+    key:5,
+    path:'https://i.ibb.co/PZF4RQX/5f46270da724d80007dca659-react-resort-hotel-reservation-netlify-app-rooms-Laptop-with-Hi-DPI-screen.png',
+    name: 'Hotel Reservation',
+    info: 'A Room reservation web app',
+    link: 'https://5f46270da724d80007dca659--react-resort-hotel-reservation.netlify.app/'
   }
 ];
